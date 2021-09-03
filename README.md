@@ -8,7 +8,7 @@ In this analysis we are trying to implement a machine learning model to predict 
 
 We selected Twitter feeds and Bloomberg data as they are real world data with a noticeable complexity in their nature, which could be regarded appropriate to use for a machine learning model created to statistically verify any significant correlation between the two entities.
 
-To pragmatially carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors.
+To pragmatically carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors. To discard any notion that our project might have some similarities in approach with other projects at the first glance, but we affirm that we are using a data sources of our choice, Bloomberg, different time frames and statistical approach we see fit for the case. 
 
 ## Data Sources
 
@@ -23,7 +23,7 @@ To pragmatially carry out the analysis we need to be more specific and select a 
 
 
 
-## Study Questions
+## Study Questions we hope to answer with the data
 We strive to answer the following questions through the implementation of this machine learning model:
 
   1- Could Social media, in general, impact the stock market?
@@ -38,6 +38,18 @@ We strive to answer the following questions through the implementation of this m
 
 
 
+## Segment 1 Tasks that were Completed
+
+  1- Selected a topic
+  2- Reason why we selected this topic
+  3- Description the sources of data
+  4- Questions they hope to answer with the data
+  5- Providing a smple data for the mock testng of the model
+  6- Proposing a Machine Learning Model fit for the task 
+  7- Connecting the draft machine learning module to the provisional database that
+      - Takes in data in from the provisional database
+      - Outputs label(s) for input data
+  8- ERD of the schema
 
 
 
