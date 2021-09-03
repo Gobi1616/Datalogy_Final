@@ -22,7 +22,9 @@ We selected Twitter feeds and Bloomberg data as they are real world data with a 
 
 
 
-
+## Study Questions
+We strive to answer the following questions through the implementation of this machine learning model:
+1- 
 
 
 ## Communication Protocol
