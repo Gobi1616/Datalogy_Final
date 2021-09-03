@@ -12,14 +12,14 @@ To pragmatically carry out the analysis we need to be more specific and select a
 
 ## Data Sources
 
-    ### Bloomberg
+   ### Bloomberg
 
 
 
 
 
 
-    ### Twitter API
+   ### Twitter API
 
 
 
