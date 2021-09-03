@@ -1,6 +1,6 @@
 
 
-# Evaluating the Correlations between Stock MArket Trends and Social Media Feeds
+# Evaluating the Correlations between Stock Market Trends and Social Media Feeds
 * Datalogy group's Final Project, UofT Data Analytics Bootcapm, April-Sept 2021.
 
 ## Overview
