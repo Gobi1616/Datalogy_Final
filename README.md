@@ -31,7 +31,7 @@ We strive to answer the following questions through the implementation of the pr
      1- Could Social media, in general, impact the stock market?
      2- Could Social media, in particular Twitter feeds, impact certain segments of the stock market?
      3- Could the stock market be impacted by individual scocity members?
-     4-
+     4- How could we use a/an supervised or unsupervised ML model to preprocess / process the data
      5-
 
 
@@ -47,7 +47,7 @@ We strive to answer the following questions through the implementation of the pr
     3- Description the sources of data
     4- Questions they hope to answer with the data
     5- Providing a smple data for the mock testng of the model
-    6- Proposing a Machine Learning Model fit for the task 
+    6- Proposing a Machine Learning "Model" fit for the task 
     7- Connecting the draft machine learning module to the provisional database that
         - Takes in data in from the provisional database
         - Outputs label(s) for input data
