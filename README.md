@@ -40,16 +40,16 @@ We strive to answer the following questions through the implementation of this m
 
 ## Segment 1 Tasks that were Completed
 
-  1- Selected a topic
-  2- Reason why we selected this topic
-  3- Description the sources of data
-  4- Questions they hope to answer with the data
-  5- Providing a smple data for the mock testng of the model
-  6- Proposing a Machine Learning Model fit for the task 
-  7- Connecting the draft machine learning module to the provisional database that
-      - Takes in data in from the provisional database
-      - Outputs label(s) for input data
-  8- ERD of the schema
+    1- Selected a topic
+    2- Reason why we selected this topic
+    3- Description the sources of data
+    4- Questions they hope to answer with the data
+    5- Providing a smple data for the mock testng of the model
+    6- Proposing a Machine Learning Model fit for the task 
+    7- Connecting the draft machine learning module to the provisional database that
+        - Takes in data in from the provisional database
+        - Outputs label(s) for input data
+    8- ERD of the schema
 
 
 
