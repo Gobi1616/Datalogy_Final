@@ -8,7 +8,9 @@ In this analysis we are trying to implement a machine learning model to predict 
 
 We selected Twitter feeds and Bloomberg data as they are real world data with a noticeable complexity in their nature, which could be regarded appropriate to use for a machine learning model created to statistically verify any significant correlation between the two entities.
 
-To pragmatically carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors. To discard any notion that our project might have some similarities in approach with other projects at the first glance, but we affirm that we are using a data sources of our choice, Bloomberg, different time frames and statistical approach we see fit for the case. 
+To pragmatically carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors. 
+
+To discard similarities with any other project, we will be using Bloomberg dataset, a time interval that is uniques to this project and longest to the date, and statistical approach most fit for our dataset and case. 
 
 ## Data Sources
 
