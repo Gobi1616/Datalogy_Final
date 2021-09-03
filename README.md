@@ -1,4 +1,5 @@
-# Datalogy_Final
+# Corelation between Certain Twitter Users Tweets and Stock Prices
+Datalogy Final Project
 
 This is Mohammad's Line and creating a new branch
 
