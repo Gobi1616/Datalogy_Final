@@ -1,7 +1,7 @@
 
 
-# Correlation between Certain Twitter Users Tweets and Stock Prices
-* Datalogy group's Final Project for UofT Data Analytics Bootcapm, April-Sept 2021.
+# Evaluating the Correlations between Stock MArket Trends and Social Media Feeds
+* Datalogy group's Final Project, UofT Data Analytics Bootcapm, April-Sept 2021.
 
 ## Overview
 
@@ -10,13 +10,18 @@ In this analysis we are trying to implement a machine learning model to predict 
 
 ## Data Sources
 
-
-
 ### Bloomberg
 
 
 
+
+
+
 ### Twitter API
+
+
+
+
 
 
 ## Communication Protocol
