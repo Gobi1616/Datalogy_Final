@@ -24,11 +24,11 @@ To pragmatically carry out the analysis we need to be more specific and select a
 
 
 ## Study Questions we hope to answer with the data
-We strive to answer the following questions through the implementation of this machine learning model:
+We strive to answer the following questions through the implementation of the proposed machine learning model:
 
   1- Could Social media, in general, impact the stock market?
   2- Could Social media, in particular Twitter feeds, impact certain segments of the stock market?
-  3- 
+  3- Could the stock market be impacted by individual scocity members?
   4-
   5-
 
