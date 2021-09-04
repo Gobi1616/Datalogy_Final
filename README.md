@@ -29,9 +29,10 @@ The Bloomberg Professional Software is being using to fetch the historical data 
 We strive to answer the following questions through the implementation of the proposed machine learning model:
 
      1- How do tweets impact the stock prices? - The Analysis will be based on Elon Musk's Twitter account and Tesla Stock Prices over the period under consideration.
-     2- Could Social media, in particular Twitter feeds, impact certain segments of the stock market?
-     3- Could the stock market be impacted by individual scocity members?
-     4- How could we use a/an supervised or unsupervised ML model to preprocess / process the data
+     2- Are there any keywords which actually make an impact on Tesla stock price?
+     3-The greatest increase in the stock price and greatest decrease.
+     4- Is an invidual twitter's tweet are significant to move the market?
+     5- The model of bag-of-words is being used for Machine Learning
      
 
 
