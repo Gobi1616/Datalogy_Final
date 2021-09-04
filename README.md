@@ -32,11 +32,12 @@ We strive to answer the following questions through the implementation of the pr
      2- Could Social media, in particular Twitter feeds, impact certain segments of the stock market?
      3- Could the stock market be impacted by individual scocity members?
      4- How could we use a/an supervised or unsupervised ML model to preprocess / process the data
-     5-
+     
 
 
 ## Communication Protocol
-
+There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
+We also created a WhatsApp group to follow up with the team and a shared folder in google drive to save the resources.
 
 
 
@@ -45,8 +46,8 @@ We strive to answer the following questions through the implementation of the pr
     1- Selected a topic
     2- Reason why we selected this topic
     3- Description the sources of data
-    4- Questions they hope to answer with the data
-    5- Providing a smple data for the mock testng of the model
+    4- Questions we hope to answer with the data
+    5- Providing a sample data for the mock testng of the model
     6- Proposing a Machine Learning "Model" fit for the task 
     7- Connecting the draft machine learning module to the provisional database that
         - Takes in data in from the provisional database
