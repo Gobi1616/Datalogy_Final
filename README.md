@@ -23,7 +23,7 @@ To discard or minimize any probable similarities with any other project, we will
 
    ### Twitter API
 
-
+    This project streams real-time data from Twitter, performs natural language processing on the contents of the tweet, and displays the results. The Twitter data is filtered by a query word and processed to determine sentiment of the tweet.
 
 ## Study Questions we hope to answer with the data
 We strive to answer the following questions through the implementation of the proposed machine learning model:
