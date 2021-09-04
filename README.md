@@ -15,7 +15,7 @@ To discard or minimize any probable similarities with any other project, we will
 ## Data Sources
 
    ### Bloomberg
-
+The Bloomberg Professional Software is being using to fetch the historical data for Tesla Stock price from 2011 till date. 
 
 
 
@@ -28,7 +28,7 @@ To discard or minimize any probable similarities with any other project, we will
 ## Study Questions we hope to answer with the data
 We strive to answer the following questions through the implementation of the proposed machine learning model:
 
-     1- Could Social media, in general, impact the stock market?
+     1- How do tweets impact the stock prices? - The Analysis will be based on Elon Musk's Twitter account and Tesla Stock Prices over the period under consideration.
      2- Could Social media, in particular Twitter feeds, impact certain segments of the stock market?
      3- Could the stock market be impacted by individual scocity members?
      4- How could we use a/an supervised or unsupervised ML model to preprocess / process the data
