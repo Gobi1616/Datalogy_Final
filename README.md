@@ -1,5 +1,5 @@
 
-# Evaluating the Relationship between Stock Market Trends and Social Media Feeds
+# Social Media Impacts on Stock Market Trends 
 * Datalogy Final Project, UofT Data Analytics Bootcamp, April-Sept 2021.
 
 ## Overview
