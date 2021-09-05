@@ -1,5 +1,5 @@
 
-# Social Media Impacts on Stock Market Trends 
+# Social Media Impacts on Stock Market
 * Datalogy Final Project, UofT Data Analytics Bootcamp, April-Sept 2021.
 
 ## Overview
