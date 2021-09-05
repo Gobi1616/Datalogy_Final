@@ -1,0 +1,13 @@
+pandas              1.2.4
+session_info        1.0.0
+sklearn             0.24.1
+sqlalchemy          1.4.7
+nltk                3.6.1
+path                NA
+psycopg2            2.8 (dt dec pq3 ext lo64)
+sklearn             0.24.1
+sqlalchemy          1.4.7
+twarc               2.3.7
+yahoo_fin           NA
+gensim              4.0.1
+matplotlib          3.3.4
