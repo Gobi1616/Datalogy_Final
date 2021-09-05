@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this analysis we are trying to implement a machine learning model to predict trends in segments of stock market based on the effects of certain celebrities' interaction with the market through their social media feeds. To do so, we are going to feed the model with an API from [Twitter](https://twitter.com/?lang=en) and historical data from [Bloomberg](https://www.bloomberg.com/markets/stocks) Stocks Market values encompassing a 10-year time interval. 
+In this analysis we are trying to implement a machine learning model to predict trends in segments of stock market based on the effects of certain celebrities' interaction with the market through their social media feeds. To do so, we are going to feed the model with an API from [Twitter](https://twitter.com/?lang=en) and historical stock data from [Bloomberg](https://www.bloomberg.com/markets/stocks). Stocks Market values encompassing a 10-year time interval. 
 
 We selected Twitter feeds and Bloomberg data as they are real world data with a noticeable complexity in their nature, which could be regarded appropriate to use for a machine learning model created to statistically verify any significant correlation between the two entities.
 
@@ -15,15 +15,13 @@ To discard or minimize any probable similarities with any other project, we will
 ## Data Sources
 
    ### Bloomberg
-The Bloomberg Professional Software is being used to fetch historical data for Tesla Stock price from 2011 till date. 
-
+The Bloomberg Professional Software is being used to fetch historical data for (TSLA) Tesla Stock price from 2011 till date. 
 
    ### Twitter API
 
 This project streams real-time data from Twitter, performs natural language processing on the contents of the tweet, and displays the results. The Twitter data is filtered by a query word and processed to determine sentiment of the tweet.
 
-In this study, we will use data from such a powerful microblogging platform to examine how a digital behemoth, a global icon, may influence the emotions of millions of people connected to it, and how these feelings, in turn, affect the rise and fall of an organization's stock price. Aside from being a fantastic communication tool, Twitter is a gold mine for text and social web analysis.......
-
+In this study, we will use data from such a powerful microblogging platform to examine how a digital behemoth, a global icon, may influence the emotions of millions of people connected to it, and how these feelings, in turn, affect the rise and fall of an organization's stock price. Aside from being a fantastic communication tool, Twitter is a gold mine for text and social web analysis..
 
 ## Study Questions we hope to answer with the data
 We strive to answer the following questions through the implementation of the proposed machine learning model:
@@ -34,22 +32,24 @@ We strive to answer the following questions through the implementation of the pr
      4- What are the greatest decrease in the stock price related to this condition?
      5- Are an invidual's tweets significant enough to move a specific segment of the market?
       
-
 ## Analytical Model and Tools
 The Analysis will be based on Elon Musk's Twitter account and Tesla Stock Prices over the period under consideration.
-The model of bag-of-words will be used for the Machine Learning model.
-
+The method of feature extraction - bag-of-words will be used for the Machine Learning model.
 
 ## Communication Protocol
 There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
 We also created a WhatsApp group to follow up with the team and a shared folder in google drive to save the resources.
-
+### Project Team
+* Behnam Hashemi 
+* Mohammad Ahmed Jilani
+* Gobinath Thangaiya
+* Yuvraj Singh Bhati
 
 ## Segment 1 Tasks that were Completed
 
     1- Selected a topic
     2- Reason why we selected this topic
-    3- Description the sources of data
+    3- Description of the sources of data
     4- Questions we hope to answer with the data
     5- Providing a sample data for the mock testng of the model
     6- Proposing a Machine Learning "Model" fit for the task 
