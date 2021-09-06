@@ -10,7 +10,7 @@ We selected Twitter feeds and Bloomberg data as they are real world big data wit
 
 To pragmatically carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors. 
 
-To discard or minimize any probable similarities with any other project, we will be using Bloomberg stock market dataset, a time interval of our choosing unique to this project, and statistical approach most fit for our dataset and case. 
+To discard or minimize any probable similarities with any other project, we will be using Yahhoo_fin stock market dataset with a time interval of our choosing that is unique to this project, and statistical approach most fit for this dataset and case. 
 
 ## Data Sources
 
