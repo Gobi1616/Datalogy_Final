@@ -14,7 +14,7 @@ To discard or minimize any probable similarities with any other project, we will
 
 ## Data Sources
 
-   ### Bloomberg
+   ### Yahoo_fin
    
 Yahoo_fin library was used to get historical historical data for (TSLA) Tesla Stock price from 2011 till date. 
 
