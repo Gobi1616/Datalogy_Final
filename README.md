@@ -6,7 +6,7 @@
 
 In this analysis we are trying to implement a machine learning model to predict trends in segments of stock market based on the effects of certain celebrities' interaction with the market through their social media feeds. To do so, we are going to feed the model with an API from [Twitter](https://twitter.com/?lang=en) and historical stock data from [Yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/). Stocks Market values encompassing a 10-year time interval. 
 
-We selected Twitter feeds and Bloomberg data as they are real world data with a noticeable complexity in their nature, which could be regarded appropriate to use for a machine learning model created to statistically verify any significant correlation between the two entities.
+We selected Twitter feeds and Bloomberg data as they are real world big data with a noticeable complexity in their nature, which could be regarded appropriate to use for a machine learning model created to statistically verify any significant correlation between the two entities.
 
 To pragmatically carry out the analysis we need to be more specific and select a segment of the stock market and focus on Twitter feeds from a world-renowned entrepreneur to minimize any confounding factors. 
 
