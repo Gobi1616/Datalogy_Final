@@ -20,7 +20,7 @@ Yahoo_fin library was used to get historical historical data for (TSLA) Tesla St
 
    ### Twitter API
 
-This project streams real-time data from Twitter, performs natural language processing on the contents of the tweet, and displays the results. The Twitter data is filtered by a query word and processed to determine sentiment of the tweet..
+This project streams real-time data from Twitter, performs natural language processing on the contents of the tweet, and displays the results. The Twitter data is filtered by a query word and processed to determine sentiment of the tweet.
 
 In this study, we will use data from such a powerful microblogging platform to examine how a digital behemoth, a global icon, may influence the emotions of millions of people connected to it, and how these feelings, in turn, affect the rise and fall of an organization's stock price. Aside from being a fantastic communication tool, Twitter is a gold mine for text and social web analysis.
 
