@@ -19,3 +19,21 @@ CREATE TABLE tweets_data_2011_2021 (
 	retweet_count INT NOT NULL
 );
 
+SELECT * FROM tesla_stocks;
+SELECT * FROM tweets_data_2011_2021;
+
+-- Merge two tables
+SELECT tesla_stocks.date,
+	tweets_data_2011_2021.text,
+	tweets_data_2011_2021.tokenized_text,
+	tweets_data_2011_2021.like_count,
+	tweets_data_2011_2021.reply_count,
+	tweets_data_2011_2021.retweet_count,
+	tesla_stocks.volume,
+	tesla_stocks.change
+INTO twitter_vs_stocks
+FROM tesla_stocks
+INNER JOIN tweets_data_2011_2021
+ON tesla_stocks.date = tweets_data_2011_2021.date;
+
+SELECT * FROM twitter_vs_stocks;
