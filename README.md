@@ -31,7 +31,7 @@ We strive to answer the following questions through the implementation of the pr
      2- Are there any keywords which actually make an impact on Tesla stock price?
      3- What are the greatest increase in the stock price related to this condition?
      4- What are the greatest decrease in the stock price related to this condition?
-     5- Are an invidual's tweets significant enough to move a specific segment of the market?
+     5- Are an individual's tweets significant enough to move a specific segment of the market?
       
 ## Analytical Model and Tools
 The Analysis will be based on Elon Musk's Twitter account and Tesla Stock Prices over the period under consideration.
