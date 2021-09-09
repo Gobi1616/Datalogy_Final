@@ -34,7 +34,7 @@ We strive to answer the following questions through the implementation of the pr
      5- Are an individual's tweets significant enough to move a specific segment of the market?
       
 ## Analytical Model and Tools
-The Analysis will be based on Elon Musk's Twitter account and Tesla Stock Prices over the period under consideration.
+The Analysis will be based on Elon Musk's Twitter feeds and Tesla Stock Prices over the period under consideration.
 The method of feature extraction - bag-of-words will be used for the Machine Learning model.
 We used the pandas library to clean the data and join twitter datasets.
 Further we will be using Principal Component Analysis(PCA), train_test_split method from sklearn library 
