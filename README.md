@@ -62,6 +62,8 @@ We also created a WhatsApp group to follow up with the team and a shared folder 
         - Outputs label(s) for input data
     8- ERD of the schema
 
+# Presentation
+Added three different charts created in Tableau for the presentation.
 
 
 
