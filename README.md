@@ -41,8 +41,9 @@ We strive to answer the following questions through the implementation of the pr
 The Analysis will be based on Elon Musk's Twitter feeds and Tesla Stock Prices over the period under consideration.
 The method of feature extraction - bag-of-words will be used for the Machine Learning model.
 We used the pandas library to clean the data and join twitter datasets.
-Further we will be using Principal Component Analysis(PCA), train_test_split method from sklearn library 
-and postgres sql database and Tableau for our project dashboard.
+Further we used Principal Component Analysis(PCA), train_test_split method from sklearn library 
+For ML we used two models [Text Classification](https://github.com/Gobi1616/Datalogy_Final/blob/main/Spacy%20Text%20Classification%20Modelling.ipynb) using Spacy library and
+Latent Dirichlet Allocation [LDA](https://github.com/Gobi1616/Datalogy_Final/blob/main/LDA.ipynb) 
 
 ## Database
 We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The [twitter_vs_stocks](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv) combines the data from both datasets using the 'date' as ID as shown in [ERD](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png?raw=true). This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We established a connection string using SQLAlchemy to upload dataset to SQL Databse. We have also linked our Postgres SQL database to cloud platform through AWS RDS database, [AWS_twitter_vs_stocks_db](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/AWS_twitter_vs_stocks_db) so that every project team member has access to the database and any future changes and new data can be included in the database.
