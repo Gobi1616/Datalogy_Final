@@ -40,16 +40,20 @@ We used the pandas library to clean the data and join twitter datasets.
 Further we will be using Principal Component Analysis(PCA), train_test_split method from sklearn library 
 and postgres sql database and Tableau for our project dashboard.
 
+## Database
+We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The twitter_vs_stocks combines the data from both datasets using the 'date' as ID. This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We have also linked our Postgres SQL database to cloud platform through AWS RDS database so that every project team member has access to the database and any future changes and new data can be included in the database.
+
 ## Communication Protocol
 There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
 We also created a WhatsApp group to follow up with the team and a shared folder in google drive to save the resources.
+
 ### Project Team
 * Behnam Hashemi 
 * Mohammad Ahmed Jilani
 * Gobinath Thangaiya
 * Yuvraj Singh Bhati
 
-## Segment 1 Tasks that were Completed
+## Segment 2 Tasks that were Completed
 
     1- Selected a topic
     2- Reason why we selected this topic
