@@ -63,6 +63,7 @@ We also created a WhatsApp group to follow up with the team and a shared folder 
 ## Segment 2 Task Deliverables Completed
 
 We worked on top of the segment one deliverables and for segment two we completed:
+   
     1- Pull data from Twitter API, Kaggle for Elon Musk tweets from 2011 to 2021
     2 - Pull data from Yahoo Fin library for Tesla Stocks from 2011 to 2021
     3 - Create two datasets for tweets and stocks data and create SQL database
