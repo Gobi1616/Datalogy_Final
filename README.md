@@ -58,7 +58,8 @@ We deleted NaN values, duplicates, and any extraneous columns, as well as format
 
 ## Tweet Classification Modelling
 
-We used preprocessed data from the SQL database's tables tesla stocks and tweets_data_2011_2021.csv for this supervised learning model. A SQL query was performed to create a dataframe called tweets price. We have the tweet, tokens of the tweet, prev day close, and next day close columns in this dataframe, where we can simply inspect the data. Close price diff was added as a last column. It's the difference between the previous day's closing stock price and the date the tweet was sent.
+We used preprocessed data from the SQL database's tables tesla stocks and tweets_data_2011_2021.csv for this supervised learning model. A SQL query was performed to create a dataframe called tweets price. We have the tweet, tokens of the tweet, prev day close, and next day close columns in this dataframe, where we can simply inspect the data. Close price diff was added as a last column. It's the difference between the previous day's closing stock price and the date the tweet was sent. We also made sure that any tweets with no or few tokens were removed from the training models, as this ensures that the machine learning algorithm is properly trained. The following table can be used as a reference:
+
 
 # Presentation
 Added three different charts created in Tableau for the presentation. Indluced in [Resources Images](https://github.com/Gobi1616/Datalogy_Final/tree/main/Resources/Images) folder.
