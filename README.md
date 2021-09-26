@@ -58,12 +58,15 @@ In this project, we utilized Latent Dirichlet Allocation for topic modelling (LD
 
 For this supervised learning model, we used the preprocessed data from the SQL database found in the tables tesla_stocks and tweets_data_2011_2021.csv. We used a SQL query to assemble a dataframe called tweets_price. In this dataframe, we have the tweet, tokens of the tweet, prev_day_close, next_day_close columns, where the data can be easily viewed. One last column called close_price_diff was created. It is the calculation between the day before and the day of closing stock price for the date the tweet was posted. This column takes into consideration weekends for which we do not have a closing stock price value in the dataset, and the randomness of Elon Musk's posting of tweets. 
 
+## Dashboard Webpages and Heroku Website Deployment
+We created several HTML pages to display the project's main dashboard. We are trying to deploy the dashboard on Heroku website as we earlier did for [pet_pals](https://petpals1969.herokuapp.com/). 
+
 
 # Presentation
 We created an interactive Dashboard in Tableau and a Storyline for the presentation. [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes)
 
 
-The presentation slides were created on **Google Slides** website [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
+The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
 
 ## Communication Protocol
 There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
