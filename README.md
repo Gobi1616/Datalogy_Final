@@ -56,6 +56,10 @@ LDA is an unsupervised machine learning model, it takes the entire dataset as in
 
 We deleted NaN values, duplicates, and any extraneous columns, as well as formatted data types, after getting the data. To clean the data and combine the twitter datasets, the pandas package was utilised. We used a few text cleaning techniques to prepare the data for LDA.
 
+## Tweet Classification Modelling
+
+We used preprocessed data from the SQL database's tables tesla stocks and tweets_data_2011_2021.csv for this supervised learning model. A SQL query was performed to create a dataframe called tweets price. We have the tweet, tokens of the tweet, prev day close, and next day close columns in this dataframe, where we can simply inspect the data. Close price diff was added as a last column. It's the difference between the previous day's closing stock price and the date the tweet was sent.
+
 # Presentation
 Added three different charts created in Tableau for the presentation. Indluced in [Resources Images](https://github.com/Gobi1616/Datalogy_Final/tree/main/Resources/Images) folder.
 
