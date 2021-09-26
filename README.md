@@ -48,6 +48,16 @@ Latent Dirichlet Allocation [LDA](https://github.com/Gobi1616/Datalogy_Final/blo
 ## Database
 We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The [twitter_vs_stocks](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv) combines the data from both datasets using the 'date' as ID as shown in [ERD](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png?raw=true). This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We established a connection string using SQLAlchemy to upload dataset to SQL Databse. We have also linked our Postgres SQL database to cloud platform through AWS RDS database, [AWS_twitter_vs_stocks_db](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/AWS_twitter_vs_stocks_db) so that every project team member has access to the database and any future changes and new data can be included in the database.
 
+## Machine Learning Models
+
+### Latent Dirichlet Allocation (LDA) Modelling
+
+In this project, we utilized Latent Dirichlet Allocation for topic modelling (LDA). There are four stages to the modelling process of clean the data, create a bag of words, identify the number of subjects, run the LDA algorithm.The LDA model maintains a significant number of features, however it doesn't take into account the position of a word in the sentence. It's hard to define the right number of topics as the coherence score will vary from tiny changes in the dataset. Words are often mixed between a few topics and this makes the LDA model less trusted.
+
+### Tweet Classification Modelling
+
+For this supervised learning model, we used the preprocessed data from the SQL database found in the tables tesla_stocks and tweets_data_2011_2021.csv. We used a SQL query to assemble a dataframe called tweets_price. In this dataframe, we have the tweet, tokens of the tweet, prev_day_close, next_day_close columns, where the data can be easily viewed. One last column called close_price_diff was created. It is the calculation between the day before and the day of closing stock price for the date the tweet was posted. This column takes into consideration weekends for which we do not have a closing stock price value in the dataset, and the randomness of Elon Musk's posting of tweets. 
+
 # Presentation
 We created an interactive Dashboard in Tableau and a Storyline for the presentation. [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes)
 
