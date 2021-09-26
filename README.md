@@ -48,14 +48,6 @@ Latent Dirichlet Allocation [LDA](https://github.com/Gobi1616/Datalogy_Final/blo
 ## Database
 We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The [twitter_vs_stocks](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv) combines the data from both datasets using the 'date' as ID as shown in [ERD](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png?raw=true). This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We established a connection string using SQLAlchemy to upload dataset to SQL Databse. We have also linked our Postgres SQL database to cloud platform through AWS RDS database, [AWS_twitter_vs_stocks_db](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/AWS_twitter_vs_stocks_db) so that every project team member has access to the database and any future changes and new data can be included in the database.
 
-# Machine Learning Models
-
-## Latent Dirichlet Allocation (LDA) Modelling
-
-LDA is an unsupervised machine learning model, it takes the entire dataset as input and does not separate it into training and testing groups. We utilized LDA modelling and the modelling process is broken down into four stages such as clean the data, create a bag of words, identify the number of subjects and run the LDA algorithm. 
-
-We deleted NaN values, duplicates, and any extraneous columns, as well as formatted data types, after getting the data. To clean the data and combine the twitter datasets, the pandas package was utilised. We used a few text cleaning techniques to prepare the data for LDA.
-
 # Presentation
 We created an interactive Dashboard in Tableau and a Storyline for the presentation. [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes)
 
