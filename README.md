@@ -61,17 +61,17 @@ In this project, we utilized Latent Dirichlet Allocation for topic modelling (LD
 
 Below the cleaning process, the bag of words stage was used to extract the most popular words in tweets with their counts.
 
-..
-
-In conclusion, we estimate that there will be roughly two subjects. It's important to remember that a corpus of very brief documents (like Elon Musk's tweets) is more difficult to apply to coherent models than a corpus of lengthy documents.
-
-..
+![image](https://user-images.githubusercontent.com/82549869/134828289-01789af4-e683-4e51-9488-61ad61c9e49c.png)
 
 Elon Musk used words in his tweets, which means there are a lot of details to look over. LDA, on the other hand, is a probabilistic conversion of bag-of-words counts to a lower-dimensional topic space. It categorises text data on a topic-by-topic basis, ignoring the content's original place while keeping its frequency. The degree of semantic similarity between a topic's high scoring words is utilised to evaluate its coherence when calculating the coherence score. The most commonly occurring words in each topic are chosen by the algorithm. The coherence score for a given topic is then derived by adding all of the pairwise scores for each of the terms together.
 
 Below is the average coherence score per topic for a range of models trained with varied amounts of topics. The optimum balance we seek is the number of topics for which the average score reaches a peak point.
 
-..
+![image](https://user-images.githubusercontent.com/82549869/134828324-f105926e-aa59-4d4a-a086-cf4b31796086.png)
+
+In conclusion, we estimate that there will be roughly two subjects. It's important to remember that a corpus of very brief documents (like Elon Musk's tweets) is more difficult to apply to coherent models than a corpus of lengthy documents.
+
+![image](https://user-images.githubusercontent.com/82549869/134828418-6f6e927f-4567-424c-9fd5-fe53b45a28c0.png)
 
 Despite the presence of the term "Tesla" in subject 0, the remaining words are all related to SpaceX and its many components. The first topic shows how Tesla and its components are grouped together. As a result, we can agree that Elon Musk primarily posts about two topics: Tesla and SpaceX.
 
@@ -79,14 +79,14 @@ Despite the presence of the term "Tesla" in subject 0, the remaining words are a
 
 For this supervised learning model, we used the preprocessed data from the SQL database found in the tables tesla_stocks and tweets_data_2011_2021.csv. We used a SQL query to assemble a dataframe called tweets_price. In this dataframe, we have the tweet, tokens of the tweet, prev_day_close, next_day_close columns, where the data can be easily viewed. One last column called close_price_diff was created. It is the calculation between the day before and the day of closing stock price for the date the tweet was posted. This column takes into consideration weekends for which we do not have a closing stock price value in the dataset, and the randomness of Elon Musk's posting of tweets. 
 
-..
+![image](https://user-images.githubusercontent.com/82549869/134828453-f7846d98-3048-4f12-b328-f8fbf28a2f6e.png)
 
 For something like the Classification model, we choose LogisticRegression to predict the likelihood that Elon Musk's tweet will have an influence on Tesla stock or the likelihood that this event will occur. The LogisticRegression model has the advantage of providing statistical information on the significance of tweets in relation to stock price movement. The assumption that there is LogisticRegression between the data is a drawback of this model, and it is prone to overfitting.
 The model's overall performance indicates that it cannot accurately forecast a correlation between a tweet and a change in Tesla stock price. This is an expected conclusion, given the amount of variables that drive stock price movement and the fact that not all of Elon Musk's tweets directly influence investors.
 
 It's worth noting, however, that the model can accurately identify the most favourable tweets when looking at the results test data frame. This demonstrates that the model can make appropriate token deduction calls using Natural Language Processing (NLP) and can learn from the data.
 
-..
+![image](https://user-images.githubusercontent.com/82549869/134828481-5cf003ba-352a-423a-8a42-83055b7be295.png)
 
 ## Dashboard Webpages and Heroku Website Deployment
 We created several HTML pages to display the project's main dashboard. We are trying to deploy the dashboard on Heroku website as we earlier did for [pet_pals](https://petpals1969.herokuapp.com/). 
