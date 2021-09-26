@@ -52,7 +52,7 @@ We have used Postgres SQL database to upload datasets. We uploaded two datasets 
 
 ## Latent Dirichlet Allocation (LDA) Modelling
 
-LDA is an unsupervised machine learning model, it takes the entire dataset as input and does not separate it into training and testing groups. We utilized LDA modelling and the modelling process is broken down into four stages such as clean the data, create a bag of words , identify the number of subjects and run the LDA algorithm. 
+LDA is an unsupervised machine learning model, it takes the entire dataset as input and does not separate it into training and testing groups. We utilized LDA modelling and the modelling process is broken down into four stages such as clean the data, create a bag of words, identify the number of subjects and run the LDA algorithm. 
 
 We deleted NaN values, duplicates, and any extraneous columns, as well as formatted data types, after getting the data. To clean the data and combine the twitter datasets, the pandas package was utilised. We used a few text cleaning techniques to prepare the data for LDA.
 
