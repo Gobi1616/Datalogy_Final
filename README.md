@@ -62,8 +62,8 @@ For this supervised learning model, we used the preprocessed data from the SQL d
 We created several HTML pages to display the project's main dashboard. We are trying to deploy the dashboard on Heroku website as we earlier did for [pet_pals](https://petpals1969.herokuapp.com/). 
 
 
-## Presentation
-We created an interactive Dashboard in Tableau and a Storyline for the presentation. [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes)
+# Presentation
+We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes) in Tableau and a Storyline for the presentation.
 
 
 The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
