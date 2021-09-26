@@ -48,20 +48,8 @@ Latent Dirichlet Allocation [LDA](https://github.com/Gobi1616/Datalogy_Final/blo
 ## Database
 We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The [twitter_vs_stocks](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv) combines the data from both datasets using the 'date' as ID as shown in [ERD](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png?raw=true). This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We established a connection string using SQLAlchemy to upload dataset to SQL Databse. We have also linked our Postgres SQL database to cloud platform through AWS RDS database, [AWS_twitter_vs_stocks_db](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/AWS_twitter_vs_stocks_db) so that every project team member has access to the database and any future changes and new data can be included in the database.
 
-# Machine Learning Models
-
-## Latent Dirichlet Allocation (LDA) Modelling
-
-LDA is an unsupervised machine learning model, it takes the entire dataset as input and does not separate it into training and testing groups. We utilized LDA modelling and the modelling process is broken down into four stages such as clean the data, create a bag of words, identify the number of subjects and run the LDA algorithm.
-
-We deleted NaN values, duplicates, and any extraneous columns, as well as formatted data types, after getting the data. To clean the data and combine the twitter datasets, the pandas package was utilised. We used a few text cleaning techniques to prepare the data for LDA.
-
-## Tweet Classification Modelling
-
-We used preprocessed data from the SQL database's tables tesla stocks and tweets_data_2011_2021.csv for this supervised learning model. A SQL query was performed to create a dataframe called tweets price. We have the tweet, tokens of the tweet, prev day close, and next day close columns in this dataframe, where we can simply inspect the data. Close price diff was added as a last column. It's the difference between the previous day's closing stock price and the date the tweet was sent.
-
 # Presentation
-Added three different charts created in Tableau for the presentation. Indluced in [Resources Images](https://github.com/Gobi1616/Datalogy_Final/tree/main/Resources/Images) folder.
+We created an interactive Dashboard in Tableau and a Storyline for the presentation. [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes)
 
 ## Communication Protocol
 There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
