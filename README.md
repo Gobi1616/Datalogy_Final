@@ -108,6 +108,7 @@ The presentation slide deck was created on **Google Slides** website that is [ac
 ## Segment 3 Task Deliverables Completed
 
 We worked on top of the segment two deliverables and for segment 3 we completed:
+
    1- Presentation - It is drafted in Google Slides and tells a story about the project
    2- Git Hub Repository - The repository has been updated with the work done this week on segment 3
       *  Main Branch - Includes all code necessary to perform exploratory analysis and to complete the machine learning portion of the project
