@@ -94,7 +94,7 @@ We created several HTML pages to display the project's main dashboard. We are tr
 
 # Presentation
 
-We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes) in Tableau and a Story board for the presentation. It showcase the exploratory analysis of the twitter and stock datasets and interactive components like filters, sliders and hover effects.
+We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsImpactonStockPrices?publish=yes) in Tableau and a Story board for the presentation. It showcase the exploratory analysis of the twitter and stock datasets and interactive components like filters, sliders and hover effects.
 Users can filter the graphs by year and months to show the changes in tweets over time. Similarly stock closing prices and correlation between tweet likes and stock trading volume can also be seen for different time periods.
 
 The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
