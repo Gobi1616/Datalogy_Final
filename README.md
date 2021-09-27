@@ -108,13 +108,12 @@ The presentation slide deck was created on **Google Slides** website that is [ac
 ## Segment 3 Task Deliverables Completed
 
 We worked on top of the segment two deliverables and for segment 3 we completed:
-  
-      1- Presentation - It is drafted in Google Slides and tells a story about the project
-      2- Git Hub Repository - The repository has been updated with the work done this week on segment 3
-         *  Main Branch - Includes all code necessary to perform exploratory analysis and to complete the machine learning portion of the project
-         *  README.md - Includes Cohesive, structured outline of the project (with images, links and tables) and link to Google Slides draft presentation
-         *  Individual Branches - Every project team member created and merged individual branches
-      3- Machine Learning Model - Includes working code for machine learning models and explanation of various phases of data processing, feature engineering, decision making,  
+   1- Presentation - It is drafted in Google Slides and tells a story about the project
+   2- Git Hub Repository - The repository has been updated with the work done this week on segment 3
+      *  Main Branch - Includes all code necessary to perform exploratory analysis and to complete the machine learning portion of the project
+      *  README.md - Includes Cohesive, structured outline of the project (with images, links and tables) and link to Google Slides draft presentation
+      *  Individual Branches - Every project team member created and merged individual branches
+   3- Machine Learning Model - Includes working code for machine learning models and explanation of various phases of data processing, feature engineering, decision making,  
       train and test sets, model choice, accuracy score etc.
-      4- Dashboard - Interactive Tableau Dashboard is included which shows a data story with images from intial analysis, data images/report from machine learning task
+   4- Dashboard - Interactive Tableau Dashboard is included which shows a data story with images from intial analysis, data images/report from machine learning task
     
