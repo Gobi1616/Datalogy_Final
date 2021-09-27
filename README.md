@@ -93,14 +93,11 @@ We created several HTML pages to display the project's main dashboard. We are tr
 
 
 # Presentation
-We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes) in Tableau and a Storyline for the presentation.
 
+We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsvsStockPrices?publish=yes) in Tableau and a Story board for the presentation. It showcase the exploratory analysis of the twitter and stock datasets and interactive components like filters, sliders and hover effects.
+Users can filter the graphs by year and months to show the changes in tweets over time. Similarly stock closing prices and correlation between tweet likes and stock trading volume can also be seen for different time periods.
 
 The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
-
-## Communication Protocol
-There are four members in our team. The role of each team member will vary every week to ensure that everyone can gain experience in different areas of the project. A slack channel was created to support communication amongst the team, and will be used to assign tickets, provide updates, and discuss any issues. The team will additionally have zoom meetings everyday to go over project progress and next steps.
-We also created a WhatsApp group to follow up with the team and a shared folder in google drive to save the resources.
 
 ### Project Team
 * Behnam Hashemi 
@@ -108,19 +105,16 @@ We also created a WhatsApp group to follow up with the team and a shared folder 
 * Gobinath Thangaiya
 * Yuvraj Singh Bhati
 
-## Segment 2 Task Deliverables Completed
+## Segment 3 Task Deliverables Completed
 
-We worked on top of the segment one deliverables and for segment two we completed:
+We worked on top of the segment two deliverables and for segment 3 we completed:
    
-    1- Pull data from Twitter API, Kaggle for Elon Musk tweets from 2011 to 2021
-    2 - Pull data from Yahoo Fin library for Tesla Stocks from 2011 to 2021
-    3 - Create two datasets for tweets and stocks data and create SQL database
-    4 - Join two datasets to create a third dataset in Postgres SQL database
-    5 - Establish connection string using SQLAlchemy to upload dataset to SQL database
-    6 - Connect PostgreSQL database to cloud platform using AWS RDS
-    7 - Included ERD of the schema to show relationships between datasets
-    8 - ML models selected and worked upon to analyze the data, create datasets and implement Machine Learning
-    9- Two models chosen for our analysis Text Classification using Spacy library and Latent Dirichlet Allocation (LDA) 
-    10- Slides prepared using Tableau and google slides and uploded in Resources
-    11- Worked on initial set up for the Dashboard and presentation
+   1  Presentation - It is drafted in Google Slides and tells a story about the project
+   2  Git Hub Repository - The repository has been updated with the work done this week on segment 3
+      *  Main Branch - Includes all code necessary to perform exploratory analysis and to complete the machine learning portion of the project
+      *  README.md - Includes Cohesive, structured outline of the project (with images, links and tables) and link to Google Slides draft presentation
+      *  Individual Branches - Every project team member created and merged individual branches
+   3  Machine Learning Model - Includes working code for machine learning models and explanation of various phases of data processing, feature engineering, decision making,  
+      train and test sets, model choice, accuracy score etc.
+   4  Dashboard - Interactive Tableau Dashboard is included which shows a data story with images from intial analysis, data images/report from machine learning task
     
