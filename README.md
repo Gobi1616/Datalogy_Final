@@ -16,6 +16,32 @@ To discard or minimize any probable similarities with any other project, we will
 
 We are using LDA and Text Classification (Spacy) models to analyse datasets.
 
+
+## Project Outline
+1.	[Getting and storing data](https://github.com/Gobi1616/Datalogy_Final/blob/main/Cleaning_preprocessing_data.ipynb)
+    - Twitter data
+      - Pull data from Twitter API and clean it
+      - Pull tweets data from [Kaggle for 2011-2020](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021) and clean it
+      - Merge 2 datasets and export to [tweets_data_2010_2020_ungrouped.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tweets_data_2011_2021_ungrouped.csv) for Tableau dashboard
+      - Preprocess data for machine learning (ML)
+      - Upload cleaned data to PostgreSQL database and export to [tweets_data_2010_2020.csv](hhttps://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tweets_data_2011_2021.csv)
+    - Stocks data
+      - Pull data from Yahoo fin library
+      - Clean data
+      - Upload cleaned data to PostgreSQL database and export to [tesla_stocks.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tesla_stocks.csv)
+2.	SQL Database
+    - Create [ERD schema](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png)
+    - Create [tables](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks_db.sql) to store tweets and stock data
+    - Merge 2 tables and export to [twitter_vs_stocks.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv)
+3.	Machine Learning Model
+    - [Latent Dirichlet Allocation (LDA) Modelling](https://github.com/Gobi1616/Datalogy_Final/blob/main/LDA.ipynb)
+      - Preprocess data
+      - Build LDA model
+    - [Classification](https://github.com/Gobi1616/Datalogy_Final/blob/main/Classification_model.ipynb)
+      - Preprocess data
+      - Build classification model
+4.	[Tableau dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsImpactonStockPrices?publish=yes)
+5.	Create presentation in [Google Slides](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit?usp=sharing)
 ## Data Sources
 
    ### Yahoo_fin   
