@@ -2,7 +2,7 @@
 # Social Media Impacts on Stock Market
 * Datalogy Final Project, UofT Data Analytics Bootcamp, April-Sept 2021.
 
-## Overview
+## Overview - Selected Topic and Reason for Selection
 
 In this analysis we are trying to implement a machine learning model to predict trends in segments of stock market based on the effects of certain celebrities' interaction with the market through their social media feeds. To do so, we are going to feed the model with an API from [Twitter](https://twitter.com/?lang=en) to collect [all posts made by Elon Musk in 2021](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/elon_musk_tweets_2011-2021.csv) along with data of likes, replies and retweets.
 We merged it with another dataset for Elon Musk tweets for 2011 to 2020 from [Kaggle](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021). All Elon's reposts and replies were excluded from analysis.
@@ -42,7 +42,8 @@ We are using LDA and Text Classification (Spacy) models to analyse datasets.
       - Build classification model
 4.	[Tableau dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsImpactonStockPrices?publish=yes)
 5.	Create presentation in [Google Slides](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit#slide=id.gefdb924201_0_726)
-## Data Sources
+
+## Data Sources and Description
 
    ### Yahoo_fin   
 Yahoo_fin library was used to get historical historical data for (TSLA) Tesla Stock price from 2011 till date. 
@@ -54,27 +55,45 @@ In this study, we will use data from such a powerful microblogging platform to e
    ### Kaggle
 We also used Kaggle to get historical Elon Musk tweets data from 2011 to 2020.
 
-## Study Questions we hope to answer with the data
+## Questions we hope to answer with the data
 We strive to answer the following questions through the implementation of the proposed machine learning model:
 
      1- How do tweets impact the stock prices? 
      2- Are there any keywords which actually make an impact on Tesla stock price?
-     3- What are the greatest increase in the stock price related to this condition?
-     4- What are the greatest decrease in the stock price related to this condition?
-     5- Are an individual's tweets significant enough to move a specific segment of the market?
-      
-## Analytical Model and Tools
-The Analysis will be based on Elon Musk's Twitter feeds and Tesla Stock Prices over the period under consideration.
-The method of feature extraction - bag-of-words will be used for the Machine Learning model.
-We used the pandas library to clean the data and join twitter datasets.
-Further we used Principal Component Analysis(PCA), train_test_split method from sklearn library 
-For ML we used two models [Text Classification](https://github.com/Gobi1616/Datalogy_Final/blob/main/Spacy%20Text%20Classification%20Modelling.ipynb) using Spacy library and
-Latent Dirichlet Allocation [LDA](https://github.com/Gobi1616/Datalogy_Final/blob/main/LDA.ipynb) 
+     3- What are the greatest increase and decrease in the stock volumes related to this condition?
+     4- Are an individual's tweets significant enough to influence a specific segment of the market?
+          
+## Data Exploration
+Newer posts were pulled from Twitter API directly for the period Jan 1 - Sep 4, 2021. We extended the dataset by adding tweets from 2011 till 2020 found on [Kaggle]( https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021). All reposts and replies were excluded, so only 4,700 tweets were included for analysis.
+
+During analysis we found that Elon Musk posted significantly higher tweets since 2018.
+
+![Tweets Count](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Tweets%20Count%20by%20Years%20and%20Months.PNG?raw=true)
+
+"Tesla" (629 times) was the most commonly tweeted word, followed by "model" (260 times).
+
+![Most Tweeted Words](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Most%20Tweeted%20Words.PNG?raw=true)
+
+Tesla stock prices soared since September 2019 and reached a peak in January 2021.
+
+![Tesla Stock Closing Price](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Tesla%20Stock%20Closing%20Price%202011-2021.PNG?raw=true)
+
+The most Tesla shares were traded on February 4th 2020.
+
+![Tesla Shares Traded](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Tesla%20Shares%20Traded%202011-2021.PNG?raw=true)
+
+The greatest increase in closing price was seen on March 9th 2021, while the greatest decrease was seen on September 8th 2020. Elon Musk posted a few tweets during these days.
+
+![Change in Tesla Stock_closing_price](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Change%20in%20Tesla%20Stock%20Closing%20Price.PNG?raw=true)
+
+A positive correlation between the number of likes and stock trading volume can be seen at some periods of time.
+
+![ Like_count_and trading volume](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Correlation%20Likes%20Count%20and%20Stocks%20Trading%20Volume%202021.PNG?raw=true)
 
 ## Database
 We have used Postgres SQL database to upload datasets. We uploaded two datasets *tesla_stocks* and *tweets_data_2011_2021* than usign the 'INNER JOIN', we merged the two datasets to create a third dataset *twitter_vs_stocks*. The [twitter_vs_stocks](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv) combines the data from both datasets using the 'date' as ID as shown in [ERD](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png?raw=true). This table displays the 'tokenized_text' versus the 'close' amount fo each date. In addition, the 'change' column shows, for each date, whether the stock price has increased or decreased compared to the previous day's amount after Elon Musk has tweeted. We established a connection string using SQLAlchemy to upload dataset to SQL Databse. We have also linked our Postgres SQL database to cloud platform through AWS RDS database, [AWS_twitter_vs_stocks_db](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/AWS_twitter_vs_stocks_db) so that every project team member has access to the database and any future changes and new data can be included in the database.
 
-## Machine Learning Models
+## Analysis - Machine Learning Models and Tools
 
 ### Latent Dirichlet Allocation (LDA) Modelling
 
