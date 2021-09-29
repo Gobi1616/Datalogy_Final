@@ -24,7 +24,7 @@ We are using LDA and Text Classification (Logistic Regression) models to analyse
       - Pull tweets data from [Kaggle for 2011-2020](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021) and clean it
       - Merge 2 datasets and export to [tweets_data_2010_2020_ungrouped.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tweets_data_2011_2021_ungrouped.csv) for Tableau dashboard
       - Preprocess data for machine learning (ML)
-      - Upload cleaned data to PostgreSQL database and export to [tweets_data_2010_2020.csv](hhttps://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tweets_data_2011_2021.csv)
+      - Upload cleaned data to PostgreSQL database and export to [tweets_data_2011_2021.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tweets_data_2011_2021.csv)
     - Stocks data
       - Pull data from Yahoo fin library
       - Clean data
