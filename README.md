@@ -129,23 +129,29 @@ Users can filter the graphs by year and months to show the changes in tweets ove
 
 The presentation slide deck was created on [Google Slides](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit#slide=id.gefdb924201_0_726). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau.
 
+## Result of Analysis
 
-### Project Team
+*Twitter*, a microblogging and social networking service which enables users to post their thoughts and interact with messages known as *“tweets”* ranging from 140 to 280 characters (2021) with around 206 million daily active users as of Q2 2021, has become a widely used platform for many prominent individuals to engage with the world.  
+
+*Elon Musk*, the founder and CEO of *Tesla* and *SpaceX*, is an active Twitter user (*@elonmusk*) and has consistently increased the number of tweets he posts each year, increasing since 2015. 
+
+The purpose of our project was to try and *find a correlation between Elon Musk’s tweets and the change of tesla stock price and the influence of Elon Musk’s tweets*, and test whether or not they influence the stock market. This was tested by gathering data on Elon’s tweets from 2011 to Sept 2021 and Tesla’s stock data for the same time frame. 
+This data was used to train a machine learning model to test for a correlation between Musk’s tweets, and any positive or negative change in stock. Also, we tested to see if the classification - machine learning model was able to understand tweets and learn if they were positive based on the fluctuation in stock value.
+
+The results of the machine learning model demonstrate a weak correlation between Elon Musk’s tweets and the fluctuation of stock price, as shown by the **55% accuracy result**. As expected from the stock market, it is a system that is influenced by an number of factors ranging from demand and supply, interest rates, dividends, investors, financial reports, forecasts and many more. The results further reinforce that this relationship is weak, as they are not isolated events. For Elon Musk’s tweets, we ran an LDA model that showed they are mainly focused on his interests on subjects regarding SpaceX, Tesla, and related topics. While the world becomes more heavily influenced by social media, it’s also getting overloaded with data, as we saw from most of Elon Musk’s tweets, which were found to have no significant impact on stock prices. 
+
+## Recommendations for Future Analysis
+Based on our findings, it is recommended to use the Logistic Regression ML model to assess the influence of likes and retweets on changes in stocks, as they appeared to show some positive correlation with trading volumne during our exploratory analysis. Furthermore, as in recent past articles have indicated Elon Musk's influence on cryptocurrencies, we could use ML to predict whether Musk's tweets have an influence on cryptocurrencies instead of Tesla stock prices. Finally, this model could be applied to other individuals with greater public influence to determine whether their tweets are more strongly correlated with stocks.
+
+## What the Team Would Do Differently
+The team did well in meeting the deadlines and deliverables but could improve on the clear distribution of tasks to avoid any duplication or rework. Team could have done more research prior to choosing the ML model as we started working on Spacy model initially but found that is not solving our purpose and later switched to Classification and LDA models. By doing more research, collaboration and clear distribution of responsibilities for each task, work could be more efficient.
+
+Also, the team had to wait for Twitter API permission initially during data collection phase as it takes a couple of days to get permission from twitter. Knowing this team will be more prepared for future where similar sort of APIs are required for data collection. Team also tried to utilize the AWS RDS cloud platform and connected the Postgres Database with AWS RDS but did not use that much in code and otherwise due to restriction of free usage. Likewise, the team should have used a database more compatible with text data, such as MongoDB, versus using SQL Alchmey and postgres.
+
+Finally, the team had an opportunity to collaborate and learnt a lot from each other. We would have liked more variety and involvement in all the aspects of project. As some individuals had more exposure to code while others on visualization. Although all the concepts and stages were timely discussed and accepted by the group but having each team member work in all aspects of the project would have provided more exposure and understanding.
+
+### Datalogy - Project Team
 * Behnam Hashemi 
 * Mohammad Ahmed Jilani
 * Gobinath Thangaiya
 * Yuvraj Singh Bhati
-
-## Segment 3 Task Deliverables Completed
-
-We worked on top of the segment two deliverables and for segment 3 we completed:
-
-      1- Presentation - It is drafted in Google Slides and tells a story about the project
-      2- Git Hub Repository - The repository has been updated with the work done this week on segment 3
-      *  Main Branch - Includes all code necessary to perform exploratory analysis and to complete the machine learning portion of the project
-      *  README.md - Includes Cohesive, structured outline of the project (with images, links and tables) and link to Google Slides draft presentation
-      *  Individual Branches - Every project team member created and merged individual branches
-      3- Machine Learning Model - Includes working code for machine learning models and explanation of various phases of data processing, feature engineering, 
-      decision making,train and test sets, model choice, accuracy score etc.
-      4- Dashboard - Interactive Tableau Dashboard is included which shows a data story with images from intial analysis, data images/report from machine learning task
-    
