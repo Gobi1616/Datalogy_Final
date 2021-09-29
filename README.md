@@ -14,7 +14,7 @@ To pragmatically carry out the analysis, we need to be more specific and select 
 
 To discard or minimize any probable similarities with any other project, we will be using Yahhoo_fin stock market dataset with a time interval of our choosing that is unique to this project, and statistical approach most fit for this dataset and case. 
 
-We are using LDA and Text Classification (Spacy) models to analyse datasets.
+We are using LDA and Text Classification (Logistic Regression) models to analyse datasets.
 
 
 ## Project Outline
