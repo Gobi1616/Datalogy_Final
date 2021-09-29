@@ -1,6 +1,6 @@
 
 # Social Media Impacts on Stock Market
-* Datalogy Final Project, UofT Data Analytics Bootcamp, April-Sept 2021.
+* Datalogy Team Final Project, UofT Data Analytics Bootcamp, April-Sept 2021.
 
 ## Overview - Selected Topic and Reason for Selection
 
