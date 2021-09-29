@@ -41,7 +41,7 @@ We are using LDA and Text Classification (Spacy) models to analyse datasets.
       - Preprocess data
       - Build classification model
 4.	[Tableau dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsImpactonStockPrices?publish=yes)
-5.	Create presentation in [Google Slides](https://docs.google.com/presentation/d/1AgN9UuQ5rSp-Z2YG5YV6FjC-o2FoojWvS2qWA-nlU8I/edit?usp=sharing)
+5.	Create presentation in [Google Slides](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit#slide=id.gefdb924201_0_726)
 ## Data Sources
 
    ### Yahoo_fin   
@@ -123,7 +123,7 @@ We created several HTML pages to display the project's main dashboard. We are tr
 We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuvraj.bhati/viz/DatalogyProjectDashboard/TweetsImpactonStockPrices?publish=yes) in Tableau and a Story board for the presentation. It showcase the exploratory analysis of the twitter and stock datasets and interactive components like filters, sliders and hover effects.
 Users can filter the graphs by year and months to show the changes in tweets over time. Similarly stock closing prices and correlation between tweet likes and stock trading volume can also be seen for different time periods.
 
-The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1AgN9UuQ5rSp-Z2YG5YV6FjC-o2FoojWvS2qWA-nlU8I/edit?usp=sharing). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
+The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit#slide=id.gefdb924201_0_726). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
 
 ### Project Team
 * Behnam Hashemi 
