@@ -114,6 +114,10 @@ It's worth noting, however, that the model can accurately identify the most favo
 
 ![image](https://user-images.githubusercontent.com/82549869/134828481-5cf003ba-352a-423a-8a42-83055b7be295.png)
 
+# Technologies, languages, tools, and algorithms
+
+![image](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/Tech%20and%20Tools.png?raw=true)
+
 ## Dashboard Webpages and Heroku Website Deployment
 We created several HTML pages to display the project's main dashboard. We are trying to deploy the dashboard on Heroku website as we earlier did for [pet_pals](https://petpals1969.herokuapp.com/). 
 
@@ -124,6 +128,7 @@ We created an interactive [Dashboard](https://public.tableau.com/app/profile/yuv
 Users can filter the graphs by year and months to show the changes in tweets over time. Similarly stock closing prices and correlation between tweet likes and stock trading volume can also be seen for different time periods.
 
 The presentation slide deck was created on **Google Slides** website that is [accessible from here](https://docs.google.com/presentation/d/1SMZks9DhKcfHfKG1b-hhtxhehmgnIdvkM5ZcL8o6TMQ/edit#slide=id.gefdb924201_0_726). The images used in the slides were created along different stages of the process and are mainly Google Colab and local jupyter file outputs and also from Tableau Public.
+
 
 ### Project Team
 * Behnam Hashemi 
