@@ -30,7 +30,7 @@ We are using LDA and Text Classification (Logistic Regression) models to analyse
       - Clean data
       - Upload cleaned data to PostgreSQL database and export to [tesla_stocks.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/tesla_stocks.csv)
 2.	SQL Database
-    - Create [ERD schema](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD-TESLA.png)
+    - Create [ERD schema](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Images/ERD_Tweets_TESLA.png?raw=true)
     - Create [tables](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks_db.sql) to store tweets and stock data
     - Merge 2 tables and export to [twitter_vs_stocks.csv](https://github.com/Gobi1616/Datalogy_Final/blob/main/Resources/Data/twitter_vs_stocks.csv)
 3.	Machine Learning Model
